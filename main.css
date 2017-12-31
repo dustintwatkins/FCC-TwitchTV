@@ -1,0 +1,78 @@
+.container{
+  text-align:center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.navBar{
+  background-color:#000045;
+  padding:20px;
+  width:100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  color:white;
+}
+.pic{
+  margin-top:15px;
+  border-radius: 50%;
+  height:50px;
+  width:50px;
+}
+.streamer{
+  text-align:center;
+}
+.stream{
+  border-style: outset;
+  width:75%;
+  display: grid;
+  grid-template-columns: 10% 30% 80%;
+  grid-template-rows: 10px 50px;
+  grid-gap: 25px;
+  padding: 10px;
+  color:white;
+  background-color:#61ab6a; 
+/*   background-color:#b65f5f */
+}
+h2{
+  margin-top:25px;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  text-decoration: underline;
+}
+.button{
+    width:250px;
+   background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.button:hover{
+    opacity: 1;
+   
+   /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+ 
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+#updateBtn1{
+  background-color:#0e690e;
+}
+#updateBtn2{
+  background-color:#a50e0e;
+}
+#updateBtn3{
+  background-color:#767575;
+}
